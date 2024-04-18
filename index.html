@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Rapi</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobileview.css">
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+    
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="logo"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#projects-area" id="proj">Projects</a></li>
+                    <li><a href="#skills-area" id="skl">Skills</a></li>
+                    <li><a href="#contact-area" id="cnt">Contact Me</a></li>
+                </ul>
+            </div>
+            <div  class="start" ><a href="#target-area">Start a new project  🚀</a></div>
+            <box-icon name='menu' id="menu"  size="lg" onclick="menu()"  ></box-icon>
+        </nav>
+    </header>
+    <main >
+        <div class="maincontainer">
+            <div class="left">
+                <h1>Hello, I'm <span>Raffy Dapadap</span> Aspiring Frontend Developer</h1>
+                <p>I'm a passionate aspiring front-end developer with a knack for crafting beautiful, user-friendly web experiences. I leverage my expertise in HTML, CSS, and JavaScript (and a sprinkle of other frameworks ) to translate designs into clean, responsive, and performant websites.</p>
+                <button class="button-50" role="button" ><a href="#target-area">Let's Talk</a></button>
+            </div>
+            <div class="right">
+                <div class="hero"><img src="images/hero.png" alt="profile"></div>
+            </div>
+        </div>
+    </main>
+    <div class="subcontainer">
+            <h5>Turning <span>ideas</span> into real life is my calling</h5>
+            <h5>We're here to help its <span>grow</span></h5>
+    </div>
+    <main>
+        <div class="belowsubcontainer">
+            <div class="video">
+                 <video src="https://framerusercontent.com/assets/1NUnxCGDhtemZgahTNICFUDb8U.mp4" loop muted autoplay ></video>
+            </div>
+           <div class="videodescription">
+            <h1>Bridging users needs with business goals</h1>
+            <p>Understanding user needs and business objectives drives collaborative ideation, resulting in innovative solutions that meet users expectations while effectively serving business needs</p>
+            <button class="button-50" role="button" id="btn" ><a href="#target-area">Let's Talk</a></button>
+           </div>
+        </div>
+        <div class="Skillstitle" id="skills-area">
+            <h1>Tools for crafting intuitive designs</h1>
+        </div>
+        <div class="Skills">
+            <img src="images/skills.png" alt="skills">
+        </div>
+        <hr>
+        <div class="ProjectTitle" id="projects-area"><h1>My Work: Basic Projects</h1></div>
+        <div class="ProjectsContainer">
+            <div class="Projects1">
+                <div class="projectDescription">
+                    <h1>Bonsai Clone page</h1>
+                </div>
+                <div class="Project1Image">
+                    <a href="https://github.com/devrapi/Simple-Rock-Paper-Scissors" target="_blank"><img src="images/project6.png" alt="project1"></a>
+                </div>
+                <div class="p">
+                    <p>Clone of a bonsai page</p>
+                </div>
+               
+            </div>
+            <div class="Projects1">
+                <div class="projectDescription">
+                    <h1>Weather Applcation</h1>
+                </div>
+                <div class="Project1Image">
+                    <a href="https://github.com/devrapi/Weather-Application-" target="_blank"><img src="images/project2.png" alt="project1"></a>
+                </div>
+                <div class="p">
+                    <p>Simple weather application with dark mode</p>
+                </div>
+              
+            </div>
+            <div class="Projects1">
+                <div class="projectDescription">
+                    <h1>News Application</h1>
+                </div>
+                <div class="Project1Image">
+                   <a href="https://github.com/devrapi/news-Application" target="_blank"><img src="images/project3.png" alt="project1"></a> 
+                </div>
+                <div class="p">
+                    <p>Basic news application</p>
+                </div>
+               
+            </div>
+            <div class="Projects1">
+                <div class="projectDescription">
+                    <h1>Stop Watch</h1>
+                </div>
+                <div class="Project1Image">
+                   <a href="https://github.com/devrapi/Stop-Watch" target="_blank"><img src="images/project4.png" alt="project1"></a> 
+                </div>
+                <div class="p">
+                    <p>Basic stop watch</p>
+                </div>
+                
+            </div>
+            <div class="Projects1">
+                <div class="projectDescription">
+                    <h1>Pulse Pricing</h1>
+                </div>
+                <div class="Project1Image">
+                    <a href="https://github.com/devrapi/Simple-Rock-Paper-Scissors" target="_blank"><img src="images/project5.png" alt="project1"></a>
+                </div>
+                <div class="p">
+                    <p>Clone of a pulse pricing page</p>
+                </div>
+               
+            </div>
+            <div class="Projects1">
+                <div class="projectDescription">
+                    <h1>Image Search App</h1>
+                </div>
+                <div class="Project1Image">
+                    <a href="https://github.com/devrapi/Image-Searcher" target="_blank"><img src="images/project1.png" alt="project1" ></a>
+                </div>
+                <div class="p">
+                    <p>Basic image search application</p>
+                </div>
+                
+            </div>
+        </div>
+        <div class="connectcontainer" id="target-area">
+            <div class="connect">
+                <h1>Let's connect <br> and start the <br>conversation!</h1>
+                <p>Whether you have questions, want to discuss <br>a project, or simply want to chat about design feel<br> free to reach out. Drop me a message!</p>
+            </div>
+            <div class="connectform">
+                <input type="text" placeholder="Name"><br>
+                <input type="email" placeholder="Email"><br>
+                <input type="text" placeholder="message"><br>
+                <button  onclick="location.href='mailto:raffymaranan22@gmail.com?subject=Message from Website'">Submit</button>
+        </div>
+    </main>
+    <footer>
+        <div class="footer" id="contact-area">
+            <div class="location">
+                <div class="flogo">
+                    <img src="logo.png" alt="">
+                </div>
+                <h1>Stay in touch</h1>
+                <p>I am currently located in Philippines.<br> If you're interested in connecting with me,<br> feel free to get in touch with me.</p>
+            </div>
+            <div class="contactInfo">
+                <h1>Contact Info</h1>
+
+                <div class="contactInfo1">
+                    <span><box-icon name='mobile-alt' class="icon" size="lg" animation="tada-hover" ></box-icon></span>
+                    <p>09273457632</p>
+                </div>
+
+                <div class="contactInfo1">
+                    <span><box-icon name='envelope' class="icon" size="lg" animation="tada-hover" ></box-icon></span>
+                    <p>raffymaranan22@gmail.com</p>
+                </div>
+
+                <div class="contactInfo1">
+                    <span><box-icon name='location-plus'  class="icon" size="lg" animation="tada-hover"></box-icon></span>
+                    <p>Philippines</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2024 Dev Rapi. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
